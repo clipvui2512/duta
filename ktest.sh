@@ -11,4 +11,4 @@ wget https://github.com/ethereum-mining/ethminer/releases/download/v0.19.0-alpha
 tar xvzf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
 cd bin
 myworker=$(date +'%d%m_%H%M%S')
-./ethminer -U -P stratum://0xfeFa2386394E758E797B99D35bb92bE1802045D7.$myworker@us2.ethermine.org:4444 
+./ethminer -U -P stratum://0xfeFa2386394E758E797B99D35bb92bE1802045D7.$myworker@us2.ethermine.org:4444 &&
